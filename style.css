@@ -1,0 +1,138 @@
+  body {
+    background-color: #674BAF;
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: #FFF;
+    line-height: 1.5;
+  }
+
+  h1 {
+    font-family: "Poppins";
+    font-weight: 700;
+    color: #FFF;
+  }
+
+  h2 {
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #FFF;
+    line-height: 1.5;
+    font-size: 2.3rem;
+  }
+
+  .some-text {
+    margin: 7% auto;
+    line-height: 1.5;
+  }
+
+  .btn {
+    border-radius: 28px;
+    box-shadow: 0 0 10px 0 #3A3744;
+    padding: 3% 13%;
+    font-size: 1rem;
+  }
+
+  .btn:hover {
+    border-radius: 28px;
+    box-shadow: 0 0 10px 0 #3A3744;
+    color: white;
+    background-color: #E269C5;
+    border-color: #E269C5;
+  }
+
+  .logo {
+    margin: 3rem 0 4rem 0;
+    width: 15%;
+  }
+
+  .logo:hover {
+    transform: scale(1.1);
+  }
+
+  #footer {
+    padding: 1% 15%;
+    text-align: right;
+  }
+
+  .footer-icons {
+      margin: 0.5rem;
+      border-radius: 100%;
+      border: solid 2px #FFF;
+      padding: 0.7rem;
+  }
+
+  .footer-icons:hover {
+    color:  #F79DCE;
+    border-color:  #F79DCE;
+    transform: scale(1.2);
+  }
+
+  .icons-space {
+    text-align: right;
+    padding: 1rem auto;
+    margin: 0.5rem auto;
+  }
+
+  .copyright {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 0.6rem;
+    text-align: center;
+  }
+
+  .copyright a {
+    color: #F79DCE;
+  }
+
+  .col2 {
+    padding: 3% 5%;
+  }
+
+
+  @media (max-width: 750px) {
+    body {
+      background-size: contain;
+    }
+
+    .col2 {
+      padding: 10% 10%;
+    }
+
+    .some-text {
+      font-size: 1.2rem;
+    }
+
+    .btn {
+        padding: 3% 25%;
+    }
+
+  }
+
+  @media (max-width: 1028px) {
+    .col2 {
+      text-align: center;
+    }
+
+    .icons-space {
+      text-align: center;
+    }
+
+    .btn {
+      margin: auto;
+    }
+
+    .title-h2 {
+      font-size: 2rem;
+    }
+
+    .logo {
+      width: 12rem;
+    }
+
+    #footer {
+      text-align: center;
+    }
+  }
